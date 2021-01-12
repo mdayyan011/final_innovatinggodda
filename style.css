@@ -20,6 +20,8 @@ body{
         #loading{
             display:none;
         }
+        .socialiconsconatiner{
+            display:none;}
 }
 .nav-link{
     text-align: center;
