@@ -1,4 +1,8 @@
-alert("For Best Experience Open Website in Chrome");
+var mediaQuery = window.matchMedia('(max-width: 768px)')
+  
+if (mediaQuery.matches) {
+  alert("Use The Website In Chrome For Best Experiences");
+}
 
 $(document).keydown(function(e){ 
   if(e.which === 123){ 
