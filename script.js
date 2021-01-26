@@ -17,9 +17,6 @@ $(document).bind("contextmenu",function(e) {
  
 }); 
  
-
- 
-
   var waypoint11 = new Waypoint({
     element: document.querySelector('.heyguys'),
     handler: function() {
@@ -33,8 +30,6 @@ $(document).bind("contextmenu",function(e) {
     },
     offset: '100%'
 })
- 
-
 
 var waypoint13 = new Waypoint({
   element: document.querySelector('.heyguys1'),
