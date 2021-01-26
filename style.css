@@ -1,847 +1,579 @@
-html,body{
-    overflow-x: hidden;
-    max-width: 100%;
-    scroll-behavior: smooth;
-    
-    
-}
-body{
-    background:#dde1e7;
-} 
-       
-}
-.nav-link{
-    text-align: center;
-}
-@media only screen and (min-width:769px){
-.navbar-nav{
-    margin-left: auto;
-}
-}
-
-/* SIDE SOCIAL BUTTONS */
- 
-
-.socialiconsconatiner
-{
-  padding: 0;
-  margin: 0;
-  position: absolute;
-  top:40%;
-  left:0;
-  z-index: 9999;
-}
-.socialiconsconatiner a
-{
-  display: block;
-  color:#333;
-  text-decoration: none;
-  padding-bottom: 15px;
-}
-.socialiconsconatiner a .socialicon
-{
- font-size: 25px;
-  display: inline-block;
-  background-color: #dde1e7;
-  box-shadow: -3px -3px 5px #ffffff70,
-    3px 3px 5px #00000080;
-  width:50px;
-  height: 50px;
-  text-align: center;
-  border-radius: 25px;
-}
-.socialiconsconatiner a .socialicon .fa
- {
-  line-height: 50px;
-  }
-.socialiconsconatiner a .textsocial
-{
-  position: relative;
-  display: inline-block;
-  font-size: 16px;
-  background: #dde1e7;
-  border-radius: 25px;
-  height: 30px;
-  padding:0 15px;
-  opacity: 0;
-  visibility: hidden;
-  left:10px;
-  transition: left .2s linear;
-  
-  top:20%;
- box-shadow: -3px -3px 5px #ffffff70,
-    3px 3px 5px #00000080;
-}
-.socialiconsconatiner a:hover .textsocial
-{
-  left: 25px;
-  opacity: 1;
-  visibility:visible;
-}
-.socialiconsconatiner a:nth-child(1) .textsocial
-{
- color:#1877f2;
-}
-.socialiconsconatiner a:nth-child(2) .socialicon .fa
-{color:#c32aa3;
-}
-.socialiconsconatiner a:nth-child(2) .textsocial
-{
- color:#c32aa3;
-}
-.socialiconsconatiner a:nth-child(3) .socialicon .fa
-{color:#ff0000;
-}
-.socialiconsconatiner a:nth-child(3) .textsocial
-{
- color:#ff0000;
-}
-.socialiconsconatiner a:nth-child(1) .socialicon .fa
-{color:#1877f2;
-}
-.socialiconsconatiner a:nth-child(4) .textsocial
-{
- color:	#00acee;
-}
-.socialiconsconatiner a:nth-child(4) .socialicon .fa
-{color:	#00acee;
-}
-
-@media only screen and (max-width:768px)
-{
-  .socialiconsconatiner{
-    display: none;
-  }
-}
-nav{
-    margin:3%;
-    position: relative;
-    background-color: #dde1e7;
-    border-radius: 25px;
-    box-shadow: -3px -3px 5px #ffffff70,
-    3px 3px 5px #00000080;
-}
-
-#landing{
-    height: 100vh;
-    width: 100%;
-    position: relative;
-     
-    overflow: hidden;
-}
-
-
-/* TOP BUTTON */
-.topbutton{
-    width: 50px;
-    height: 50px;
-    position: fixed;
-    bottom: 15px;
-    right:1px;
-    z-index: 1111;
-     
-   color:#dde1e7;  
-
-}
-@media only screen and (min-width:769px)
-{
-    .topbutton{
-        width: 50px;
-        height: 50px;
-        position: fixed;
-        bottom: 15px;
-        right:35px;
-        z-index: 1111;
-         
-       color:#dde1e7;  
-    
-    }
-    
-}
-
-@media only screen and (max-width:768px){
-
-.landingtitle   {
-   width: 55%;
-   height: 50%;
-   border-radius: 25px;
-   padding-left: 4px;
-   padding-right: 5px;
-    margin: 0 auto;
-    margin-top: 4vh;
-    background:#dde1e7;
-    box-shadow:  -3px -3px 5px #ffffff70, 
-    3px 3px 5px #00000080;
-    
-}}
-@media only screen and (min-width:769px){
-
-    .landingtitle   {
-       width: 25%;
-       height: 60px;
-       border-radius: 25px;
-       line-height: 60px;
-        margin: 0 auto;
-        margin-top: 4vh;
-        background:#dde1e7;
-        box-shadow: -3px -3px 5px #ffffff70,
-        3px 3px 5px #00000080;
-        
-    }}
-
- @media only screen and (max-width:768px){
-    
-    .landingtitle{
-        font-size: 30px;
-        text-align: center;
-        line-height: 55px;
-    }
-}
-@media only screen and (min-width:769px){
-    
-    .landingtitle{
-        font-size: 35px;
-        text-align: center;
-    }
-}
-
-.boundwall{
-    background:#dde1e7;
-    width: 200px;
-    height: 200px;
-    display: block;
-    margin:0 auto;
-    margin-top:20vh;
-    border-radius: 50%;
-    box-shadow: -3px -3px 5px #ffffff70,
-    3px 3px 5px #00000080;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.boundwall::after{
-    position: absolute;
-    content: '';
-    height: 80%;
-    width: 80%;
-    background: transparent;
-    border-radius: 50%;
-    box-shadow:inset -3px -3px 5px #ffffff70,inset
-    3px 3px 5px #00000080;
-}
-
-    .logolanding{
-        width: 74%;
-        height: 74%;
-    }
-
-    /* ABOUT */
-
-    
-    .idhead{
-        margin-top: 5vh;
-        border-radius: 25px;
-background: #652ba4;
-box-shadow:      3px 3px 5px #30154f, 
-             -3px -3px 5px #9a41f9;
-        width: 16%;
-        height: 10%;
-        text-align: center;
-        display: block;
-        justify-content: center;
-        margin: 0 auto;
-        
-    }
-    @media only screen and  (max-width:768px)
-    {   
-        .idhead{
-            margin-top: 5vh;
-            border-radius: 25px;
-            background: #652ba4;
-            box-shadow:      3px 3px 5px #30154f, 
-                         -3px -3px 5px #9a41f9;
-            width: 28%;
-            height: 10%;
-            text-align: center;
-            display: block;
-            justify-content: center;
-            margin: 0 auto;
-            
-        }  
-    }
-    .idtitle{
-        font-size: 23px;
-        color:#f99345;
-        height: 5vh;
-        
-    }
-    @media only screen and (max-width:768px){
-        .idtitle{
-            font-size: 25px;
-        }
-    }
-
-    
-    #about{
-        background: #652ba4;
-    }
-    .cotainerabouttext{
-        color:#f99345;
-        margin-top: 15px;
-        margin-left: 20%;
-        margin-right: 20%;
-        border-radius: 25px;
-background: #652ba4;
-box-shadow:      3px 3px 5px #30154f, 
-             -3px -3px 5px #9a41f9;
-             color:#f99345;
-    }
-    
-        .aboutcontent{
-            text-align: left;
-            padding-top: 15px;
-            padding-bottom:15px;
-            margin-left: 5%;
-            margin-right: 5%;
-            color:#f99345;
-        }
-    @media only screen and (max-width:768px){
-        .cotainerabouttext{
-            color:#f99345;
-            margin-top: 15px;
-            margin-left: 5%;
-            margin-right: 5%;
-            border-radius: 25px;
-    background: #652ba4;
-    box-shadow:      3px 3px 5px #30154f, 
-                 -3px -3px 5px #9a41f9;
-                 color:#f99345;
-        }
-        .aboutcontent{
-            text-align: left;
-           
-            color:#f99345;
-        }
-    }
-
-
-
-    /* EVENTS */
-    #events{
-        background: #f3c623;
-        color:#0f3460;
-    }
-   .eventcontainerhead{
-     width: 13%;
-     background: #f3c623;
-     border-radius: 50px;
-     background: #F3C623;
-     box-shadow:  3px 3px 5px #cfa81e, 
-                  -3px -3px 5px #ffe428;
-    display: block;
-    margin: 0 auto;
-   }
-   .eventtexthead{
-       text-align: center;
-       font-size: 25px;
-       line-height: 40px;
-       color:#0f3460;
-   }
-   @media only screen and (max-width:768px)
-   {
-    .eventcontainerhead{
-        width: 35%;
-        
-        border-radius: 50px;
-        background: #F3C623;
-        box-shadow:  3px 3px 5px #cfa81e, 
-                     -3px -3px 5px #ffe428;
-       display: block;
-       margin: 0 auto;
-      }
-   }
-
-   .eventsbranch{
-    background: #F3C623;
-    box-shadow:   3px 3px 5px #cfa81e, 
-                 -3px -3px 5px #ffe428;
-    width: 80%;
-    display: block;
-    margin: 0 auto;
-    border-radius: 25px;
-    
-  
-   }
-   .headeventbranch{
-       padding-right:15px;
-       padding-left: 15px;
-       padding-top: 15px;
-   }
-   @media only screen and (min-width:769px)
-   {
-    .headeventbranch{
-        padding-right:25px;
-        padding-left:25px;
-        padding-top: 25px;
-    }
-   }
-
-
-   .tasveer{
-    border-radius: 50px;
-    background: #F3C623;
-    box-shadow:   3px 3px 5px #cfa81e,  
-                 -3px -3px 5px #ffe428;
-     width: 25%;
-     display: block;
-     margin:0 auto;
-   }
-   .tasveerheading{
-      font-size: 25px;
-      text-align: center;
-      line-height: 40px;
-     
-   }
-   @media only screen and (max-width:768px)
-   {
-    .tasveer{
-        border-radius: 50px;
-        background: #F3C623;
-        box-shadow:   3px 3px 5px #cfa81e,  
-                     -3px -3px 5px #ffe428;
-         width: 55%;
-         display: block;
-         margin:0 auto;
-       }
-       .tasveerheading{
-          font-size: 25px;
-          text-align: center;
-          line-height: 40px;
-         
-       }
-   }
-
-   .paratas{
-       padding-right: 15%;
-       padding-left: 18%;
-       margin-top: 5vh;
-   }
-   @media only screen and (max-width:768px)
-   {
-    .paratas{
-        padding-right: 45px;
-        padding-left: 55px;
-        padding-top: 25px;
-    }
-   }
-  
-   .glimseshead{
-       text-align: center;
-       font-size: 25px;
-   }
-   @media only screen and (min-width:769px)
-   {
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Innovating Godda">
+    <meta name="keywords" content="innovatinggodda Godda">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Innovating Godda</title>
    
-       .glimseshead{
-           text-align: center;
-           font-size: 25px;
-       }   
-   }
-  .iconcontainer{
-    width: 43px;
-    height: 43px;
-    border-radius: 25px;
-background: #F3C623;
-box-shadow:  5px 5px 7px #614f0e,
-             -5px -5px 7px #ffff38;
-    transition: transform 1s;  
-              
-  }
-  .iconcontainer:active{
-       transform: scale(2);
-       background-color: #ff0000;
-       
-  }
+    <!-- FAVICON -->
+    <link rel="icon" href="favicon.ico"/>
 
-  .carousel-control-prev-icon ,.carousel-control-next-icon{
-      margin-top: 6px;
-      width: 30px;
-      height: 30px;
-
-  }
-    .carousel-inner{
-        height: 70%;
-        width: 70%;
-        display: block;
-        margin: 0 auto;
-        align-items: center;
-       padding: 20px;
-        background: #F3C623;
-        box-shadow: inset  10px 10px 9px #cfa81e, inset 
-                     -10px -10px 9px #ffe428;
-    }
-    @media only screen and (min-width:769px)
-    {
-        #carouselExampleIndicators{
-             display: none;
-        }
-    }
-    @media only screen and (max-width:768px)
-    {
-        #desktop{
-            display: none;
-        }
-    }
-    .rowing{
-        width: 65%;
-        height: 65%;
-        padding-top: 40px;
-        padding-bottom: 20px;
-        padding-left: 10px;
-        padding-left: 10px;
-        margin: 0 auto;
-        background: #F3C623;
-        box-shadow:  inset 10px 10px 9px #cfa81e,inset 
-                     -10px -10px 9px #ffe428;
-        cursor: -webkit-grabbing; cursor: grabbing;
-    }
+    <!-- ANIME -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous"></script>
     
-     
-    .card-img-top{
-        transition: 1.2s;
-    }
-    .card-img-top:hover{
-        transform: scale(1.2);
-        
-        z-index: 9999;
-        display: block;
-        margin: 0 auto;
-        border-radius: 10px;
-    }
-
-    #diwali{
-        background:#AE0032;
-    }
-   .diwali{
-    border-radius: 50px;
-    background: #AE0032;
-    box-shadow:  5px 5px 10px #460014,
-                 -5px -5px 10px #ff0050;
-     width: 25%;
-     display: block;
-     margin:0 auto;
-   }
-   .tasveerheading{
-      font-size: 25px;
-      text-align: center;
-      line-height: 40px;
-     
-   }
-   @media only screen and (max-width:768px)
-   {
-    .diwali{
-        border-radius: 50px;
-background: #AE0032;
-box-shadow:  5px 5px 10px #760022,
-             -5px -5px 10px #e60042;
-         width: 55%;
-         display: block;
-         margin:0 auto;
-       }
-       .tasveerheading{
-          font-size: 25px;
-          text-align: center;
-          line-height: 40px;
-          padding:5px;
-         
-       }
-   }
-     @media only screen and (min-width:769px)
-     {
-         #hey{
-             display: none;
-         }
-     }
-    #blog{
-        background: #084177;
-        color:#F3C623 ;
-        padding-top: 25px;
-    }
-    .headblogtxt{
-        font-size: 35px;
-        
-        text-align: center;
-    }
-    .headblog{
-        border-radius: 50px;
-background: #084177;
-box-shadow:  5px 5px 10px #052544,
-             -5px -5px 10px #0b5daa;
-    width: 55%;
-    display: block;
-    margin: 0 auto;
-    }
-    @media only screen and (min-width:769px)
-    {
-    .headblog{
-        border-radius: 50px;
-background: #084177;
-box-shadow:  5px 5px 10px #052544,
-             -5px -5px 10px #0b5daa;
-    width: 15%;
-    display: block;
-    margin: 0 auto;
-    }}
-    .paracontainerblog{
-background: #084177;
-box-shadow: inset 5px 5px 10px #052544,inset
-             -5px -5px 10px #0b5daa;
-    margin-left: 20%;
-    margin-right: 20%;
-    }
-    @media only screen and (max-width:768px)
-    {
-        .paracontainerblog{
-            background: #084177;
-            box-shadow: inset 5px 5px 10px #052544,inset
-                         -5px -5px 10px #0b5daa;
-                margin-left: 5%;
-                margin-right: 6%;
-                }
-    } 
-
+    <!-- WAYPOINTS JS -->
+    <script src="/path/to/noframework.waypoints.min.js"></script>
     
-/* FOOTER */
+    <!-- ANIMATE.CSS -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+  <!-- JSON-LD markup generated by Google Structured Data Markup Helper. -->
+<script type="application/ld+json">
+  {
+    "@context" : "http://schema.org",
+    "@type" : "Event",
+    "name" : "Innovating Godda",
+    "image" : "http://www.googleusercontent.com/iglogowhite.png",
+    "description" : "Innovating Godda is a community with an ambition to glorify Godda"
+  }
+  </script>
+
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--  BOOTSTRAP  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+     <!--  FONT AWESOME  -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"/>
+   
+    <!-- CSS EXTERNAL LINK -->
     
-    .site-footer
-{
-  background-color:#EF4F4F;
-  padding:45px 0 20px;
-  font-size:15px;
-  line-height:24px;
-  color:#fff;
- 
-}
-.site-footer hr
-{
-  border-top-color:#fff;
-  opacity:0.5
-}
-.site-footer hr.small
-{
-  margin:20px 0
-}
-.site-footer h6
-{
-  color:#fff;
-  font-size:16px;
-  text-transform:uppercase;
-  margin-top:5px;
-  letter-spacing:2px
-}
-.site-footer a
-{
-  color:#fff;
-}
-.site-footer a:hover
-{
-  color:#3366cc;
-  text-decoration:none;
-}
-.footer-links
-{
-  padding-left:0;
-  list-style:none
-}
-.footer-links li
-{
-  display:block
-}
-.footer-links a
-{
-  color:#FFF;
-}
-.footer-links a:active,.footer-links a:focus,.footer-links a:hover
-{
-  color:#FFF;
-  text-decoration:none;
-}
-.footer-links.inline li
-{
-  display:inline-block
-}
-.site-footer .social-icons
-{
-  text-align:left;
-  padding-top:2rem;
-}
-.site-footer .social-icons a
-{
-  width:40px;
-  height:40px;
-  line-height:40px;
-  margin-left:6px;
-  margin-right:0;
-  border-radius:100%;
-  background-color:#fff
-}
-.copyright-text
-{
-  margin:0
-}
-@media (max-width:991px)
-{
-  .site-footer [class^=col-]
-  {
-    margin-bottom:30px
-  }
-}
-@media (max-width:767px)
-{
-  .site-footer
-  {
-    padding-bottom:0
-  }
-  .site-footer .copyright-text,.site-footer .social-icons
-  {
-    text-align:center
-  }
-}
-.social-icons
-{
-  padding-left:0;
-  margin-bottom:0;
-  list-style:none
-}
-.social-icons li
-{
-  display:inline-block;
-  margin-bottom:4px
-}
-.social-icons li.title
-{
-  margin-right:15px;
-  text-transform:uppercase;
-  color:#96a2b2;
-  font-weight:700;
-  font-size:13px
-}
-.social-icons a{
-  background-color:#eceeef;
-  color:#818a91;
-  font-size:16px;
-  display:inline-block;
-  line-height:44px;
-  width:44px;
-  height:44px;
-  text-align:center;
-  margin-right:8px;
-  border-radius:100%;
-  -webkit-transition:all .2s linear;
-  -o-transition:all .2s linear;
-  transition:all .2s linear
-}
-.social-icons a:active,.social-icons a:focus,.social-icons a:hover
-{
-  color:#fff;
-  background-color:#29aafe
-}
-.social-icons.size-sm a
-{
-  line-height:34px;
-  height:34px;
-  width:34px;
-  font-size:14px
-}
-.social-icons a.facebook:hover
-{
-  background-color:#3b5998
-}
-.social-icons a.twitter:hover
-{
-  background-color:#00aced
-}
-.social-icons a.linkedin:hover
-{
-  background-color:#007bb6
-}
-.social-icons a.dribbble:hover
-{
-  background-color:#ea4c89
-}
-@media (max-width:767px)
-{
-  .social-icons li.title
-  {
-    display:block;
-    margin-right:0;
-    font-weight:600
-  }
-}
-
-.readblog{
-  font-family: 'Lobster', cursive;
-}
-/* Basic button styling */
-
-.pulsingButton {
-  width: 17.699115044247787vw;
-  text-align: center;
-  white-space: nowrap;
-  display: block;
-  margin: 50px auto;
+    <link rel="stylesheet" href="style.css">
+    <!-- GOOGLE FOTNS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
   
-  box-shadow: 0 0 0 0 rgba(232, 76, 61, 0.7);
-  border-radius: 10px;
-  background-color: #EF4F4F;
-  -webkit-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
-  -moz-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
-  -ms-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
-  animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
-  font-size:  1.7699115044247788vw;
-  font-weight: normal;
+   
+    
+    <!-- SIDE SOCIAL MEDIA ICONS -->
+    <div class="socialiconsconatiner">
+        <a href="https://www.facebook.com/innovatinggodda">
+          <span class="socialicon">
+            <i class="fa fa-facebook"></i>
+          </span>
+          <span class="textsocial">Like Us</span>
+        </a>
+        <a href="https://www.instagram.com/innovating_godda/">
+          <span class="socialicon">
+            <i class="fa fa-instagram"></i>
+          </span>
+          <span class="textsocial">Follow Us</span>
+        </a>
+        <a href="https://www.youtube.com/channel/UCNeJulG1UoGb_ypYB1KOM3A">
+          <span class="socialicon">
+            <i class="fa fa-youtube"></i>
+          </span>
+          <span class="textsocial">Subscribe Now</span>
+        </a>
+        <a href="https://twitter.com/InnovatingGodda?s=20">
+          <span class="socialicon">
+            <i class="fa fa-twitter"></i>
+          </span>
+          <span class="textsocial">Follow Us</span>
+        </a>
+    
+      </div>
+    <!-- NAVBAR -->
+      <div class="mainpage">
+    <div id="landing">
+    <a name="home"></a>
+   
+        <nav class="navbar navbar-expand-lg    navbar-light "><a class="navbar-brand" href="#home">
+  
+        <img class="brand-neu"  src="iglogowhite.png" style="width:2.5em; height:auto; margin-left:15px;"/>
+      </a>
+    <!--  TOGGLER  -->
+    <button class="navbar-toggler neumor-but" type="button" data-toggle="collapse" data-target="#aim" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon "></span>
+        </button>
+      <div class="collapse navbar-collapse" id="aim">
+  
+   <ul class="navbar-nav ml-auto">
+     <li class="nav-item pr-4   ">
+         <a class="nav-link active " href="#about">About</a>
+     </li>
+     
+  
+      <li class="nav-item pr-4 ">
+          <a class="nav-link  " href="#events">Events</a>
+      </li>
+      <li class="nav-item pr-4 ">
+          <a class="nav-link  " href="#blog">Blog</a>
+      </li>
+      <li class="nav-item pr-4 ">
+   <a class="nav-link" href="#contact">Contact Us</a>
+       </li>
+        </ul>
+       </div>
+      </nav>
+     
+
+         
+      
+      
+        <div class="boundwall">
+          
+            <img class="logolanding" src="iglogowhite.png" > 
+         
+
+        </div>
+       
+        <div class="landing-content container-fluid">
+          <h1 class="landingtitle" >Innovating Godda</h1>
+        </div>
+        </div>
+        </div>
+      <!-- TOP BUTTON -->
+ <a href="#home"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-square-fill topbutton" viewBox="0 0 16 16">
+  <path d="M2 16a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2zm6.5-4.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 1 0z"/>
+</svg></a>
+
+
+<!-- ABOUT SECTION -->
+<a name="about"></a>
+<div id="about" style="padding-top: 15vh;padding-bottom: 100px;">
+  <div class="idhead" data-aos="zoom-in"data-aos-duration="150"><h2 class="idtitle">ABOUT</h2></div>
  
-  text-decoration: none !important;
-  color: #fF7DD1E;
-  transition: all 300ms ease-in-out;
-}
+  <center class="go1" data-aos="fade-up" data-aos-duration="500">
+  
+    <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_1H7IW0.json"  background="#652ba4"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+  </center>
 
+<div class="cotainerabouttext  "data-aos="fade-up"
+ >
+  <p class="aboutcontent" style="font-family: 'Roboto', sans-serif;">
+        Innovating Godda is a community with an ambition to glorify Godda.<br />
+    
+  </p>
+</div>
+<div class="cotainerabouttext  " data-aos="fade-up"
+ >
+      <p class="aboutcontent" style="font-family: 'Roboto', sans-serif;" >
+    We conduct regular events like Tasveer, Monthly Quizzes, Seminars,
+    Guest Lectures, and multiple events on a regular basis. To enhance
+     the proficiency of the people, Innovating Godda  is looking forward to conducting workshops
+      and perform career counselling.<br />
+    </p></div>
+    <div class="cotainerabouttext" data-aos="fade-up"
+     >
+       <p class="aboutcontent" style="font-family: 'Roboto', sans-serif;">
+        We work with a vision to boost Godda by enriching its people in an
+        innovative  manner. In the near future, we intend to organize an annual
+        techno-cultural fest.
+      </p>
+      </div>
+</div>
 
-/* Comment-out to have the button continue to pulse on mouseover */
+<!-- EVENTS -->
+<a name="events"></a>
+<div id="events" style="padding-top:13vh;padding-bottom: 60px;">
+  <div class="eventcontainerhead go3"   data-aos="fade-up"  >
+    <h2 class="eventtexthead">
+      EVENTS
+    </h2>
+  </div>
+  <center  data-aos="fade-up" style="padding-bottom: 15px;">
+    
+<lottie-player src="https://assets4.lottiefiles.com/packages/lf20_8c9cYO.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+  </center>
+ <div class="eventsbranch go4">
+   <p class="headeventbranch" style="padding-bottom: 3vh; font-family: 'Roboto', sans-serif;">
+     Till data we have conducted two events which was a grand sucess
+     ,the speciality   of both the events was 
+     it constituted of zero entry fee.
+     <br>
+     1.TASVEER 1.O<br>
+     2.PHOTO WALI DIWALI
 
-a.pulsingButton:hover {
-  -webkit-animation: none;
-  -moz-animation: none;
-  -ms-animation: none;
-  animation: none;
-  color: #ffffff;
-}
-
-
-/* Animation */
-
-@-webkit-keyframes pulsing {
-  to {
-    box-shadow: 0 0 0 30px rgba(232, 76, 61, 0);
-  }
-}
-
-@-moz-keyframes pulsing {
-  to {
-    box-shadow: 0 0 0 30px rgba(232, 76, 61, 0);
-  }
-}
-
-@-ms-keyframes pulsing {
-  to {
-    box-shadow: 0 0 0 30px rgba(232, 76, 61, 0);
-  }
-}
-
-@keyframes pulsing {
-  to {
-    box-shadow: 0 0 0 30px rgba(232, 76, 61, 0);
-  }
-}
+   </p>
+   
+ </div>
+ <div class="tasveer go5" style="margin-top: 11vh;"  data-aos="fade-up">
+   <h1 class="tasveerheading">
+     TASVEER 1.0 
+   </h1></div>
+  <div class="paratas">
+    <p class="para" style="font-family: 'Roboto', sans-serif;">
+      Tasveer 1.0 is officially the very first event conducted by INNOVATING GODDA.The contest had zero entry fees and a prize pool of INR1600(first rank bagged INR 700,second rank was awarded with INR 500, third position recieved INR 300,fourth position won INR 100 while fifth place recieved the page featuring).
+    </p>
+  </div>
  
+  <div class="tasveer go6"  data-aos="fade-up" style="margin-top:5vh;margin-bottom: 6vh;">
+    <h1 class="glimseshead">
+        GLIMPSES
+    </h1>
+  </div>
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators ">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        
+    
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item ">
+        <img class="d-block w-100" src="c1.jpg" alt="First slide">
+      </div>
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="c2.jpg" alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="c3.jpg" alt="Third slide">
+      </div>
+     
+      <div class="carousel-item">
+        <img class="d-block w-100" src="c8.png" alt="Third slide">
+      </div>
+
+       
+
+      <div class="carousel-item">
+        <img class="d-block w-100" src="c9.png" alt="Third slide">
+      </div>
+         
+    </div>
+    <a class="carousel-control-prev " href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <div class="iconcontainer  " data-aos="fade-left">
+      <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+      <span class="sr-only ">Previous</span></div>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <div class="iconcontainer  " data-aos="fade-right">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </div>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+<!-- DESKTOP -->
+  <div id="desktop">
+  
+  <div class="d-flex w-100 order-0 "></a>
+    <div class="w-100">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+     
+    <span class="w-100"></span>
+</div>
+<span class="w-100"></span>
+</nav>
+
+<div class="row row-cols-1 row-cols-md-3 changeall rowing">
+<div class="col mb-4 ">
+ <div class="card h-100 heyguys">
+
+   <img src="c1.jpg" class="card-img-top" alt="rank1">
+   
+ </div>
+</div>
+<div class="col mb-4">
+  <div class="card h-100 heyguys">
+    <img src="c2.jpg" class="card-img-top" alt="rank4">
+     
+  </div>
+ </div>
+<div class="col mb-4">
+ <div class="card h-100 heyguys">
+   <img src="c3.jpg" class="card-img-top" alt="rank2">
+  
+ </div>
+</div>
+<div class="col mb-4">
+ <div class="card h-100 heyguys">
+   <img src="c4.jpg" class="card-img-top" alt="rank3">
+    
+ </div>
+</div>
+
+<div class="col mb-4">
+  <div class="card h-100 heyguys">
+    <img src="c5.jpeg" class="card-img-top" alt="rank3">
+     
+  </div>
+ </div>
+
+ <div class="col mb-4">
+  <div class="card h-100 heyguys">
+    <img src="c6.png" class="card-img-top" alt="rank3">
+     
+  </div>
+ </div>
+
+
+ <div class="col mb-4">
+  <div class="card h-100 heyguys">
+    <img src="c7.png" class="card-img-top" alt="rank3">
+     
+  </div>
+ </div>
+
+ <div class="col mb-4">
+  <div class="card h-100 heyguys">
+    <img src="c8.png" class="card-img-top" alt="rank3">
+     
+  </div>
+ </div>
+ <div class="col mb-4">
+  <div class="card h-100 heyguys">
+    <img src="c9.png" class="card-img-top" alt="rank3">
+     
+  </div>
+ </div>
+  
+ 
+ 
+
+
+</div>
+</div>
+</div>
+<!-- DIWALI -->
+<div id="diwali"  style="padding-top: 50px;padding-bottom:35px;" >
+<div class="diwali" data-aos="fade-up">
+  <h1 class="tasveerheading" style="color:#FFEE61;font-size:medium;text-align: center;">
+    PHOTO WALI DIWALI 
+  </h1></div>
+  <center class="setgo" data-aos="fade-up">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets3.lottiefiles.com/packages/lf20_t4yjawml.json" mode="bounce" background="transparent"  speed="1.5"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+
+  </center>
+  <div class="paratas">
+    <p class="para" style="color:#FFEE61" style="font-family: 'Roboto', sans-serif;">
+    On the occasion of diwali 
+   we have conducted an online event 
+   called PHOTO WALI DIWALI
+   whose format was to share 
+   any creative art or photography  
+   related to diwali.
+   The event witnessed many an entries 
+   which were actually superb and creative.
+   Following are few of the entries.
+    </p>
+  </div>
+  <div id="hey" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators ">
+      <li data-target="#hey" data-slide-to="0" class="active"></li>
+      <li data-target="#hey" data-slide-to="1"></li>
+      <li data-target="#hey" data-slide-to="2"></li>
+      <li data-target="#hey" data-slide-to="3"></li>
+      <li data-target="#hey" data-slide-to="4"></li>
+        
+    
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item ">
+        <img class="d-block w-100" src="d1.png" alt="First slide">
+      </div>
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="d2.png" alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="d3.png" alt="Third slide">
+      </div>
+     
+      <div class="carousel-item">
+        <img class="d-block w-100" src="d4.png" alt="Third slide">
+      </div>
+
+       
+
+      <div class="carousel-item">
+        <img class="d-block w-100" src="d5.png" alt="Third slide">
+      </div>
+         
+    </div>
+    <a class="carousel-control-prev " href="#hey" role="button" data-slide="prev">
+      <div class="iconcontainer"data-aos="fade-left">
+      <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+      <span class="sr-only ">Previous</span></div>
+    </a>
+    <a class="carousel-control-next" href="#hey" role="button" data-slide="next">
+      <div class="iconcontainer" data-aos="fade-right">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </div>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+<!-- DESKTOP -->
+  <div id="desktop">
+  
+  <div class="d-flex w-100 order-0 "></a>
+    <div class="w-100">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+     
+    <span class="w-100"></span>
+</div>
+<span class="w-100"></span>
+</nav>
+
+<div class="row row-cols-1 row-cols-md-3 changeall rowing">
+<div class="col mb-4 ">
+ <div class="card h-100 heyguys1">
+
+   <img src="d1.png" class="card-img-top" alt="rank1">
+   
+ </div>
+</div>
+<div class="col mb-4">
+  <div class="card h-100 heyguys1">
+    <img src="d2.png" class="card-img-top" alt="rank4">
+     
+  </div>
+ </div>
+<div class="col mb-4">
+ <div class="card h-100 heyguys1 ">
+   <img src="d3.png" class="card-img-top" alt="rank2">
+  
+ </div>
+</div>
+<div class="col mb-4">
+ <div class="card h-100 heyguys1">
+   <img src="d4.png" class="card-img-top" alt="rank3">
+    
+ </div>
+</div>
+
+<div class="col mb-4">
+  <div class="card h-100 heyguys1">
+    <img src="d5.png" class="card-img-top" alt="rank3">
+     
+  </div>
+ </div>
+
+ <div class="col mb-4">
+  <div class="card h-100 heyguys1">
+    <img src="d6best.png" class="card-img-top" alt="rank3">
+     
+  </div>
+ </div>
+
+
+ <div class="col mb-4">
+  <div class="card h-100 heyguys1">
+    <img src="d7.png" class="card-img-top" alt="rank3">
+     
+  </div>
+ </div>
+
+ <div class="col mb-4">
+  <div class="card h-100 heyguys1">
+    <img src="d8.png" class="card-img-top" alt="rank3">
+     
+  </div>
+ </div>
+ <div class="col mb-4">
+  <div class="card h-100 heyguys1">
+    <img src="d9.png" class="card-img-top" alt="rank3">
+     
+  </div>
+ </div>
+ 
+</div>
+</div>
+  </div>
+  </div>
+ 
+  <!-- BLOG -->
+  <a name="blog"></a>
+  <div id="blog" style="padding-bottom: 6vh;" >
+    <div class="headblog" data-aos="fade-up">
+      <h1 class="headblogtxt">BLOG</h1>
+    </div>
+  <center class="yes1" style="padding-top:4vh;padding-bottom: 4vh;" data-aos="fade-up">
+    
+<lottie-player src="https://assets1.lottiefiles.com/private_files/lf30_5u6A5U.json"  background="transparent"  speed="1.5"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+  </center>
+ <a href="https://goddablogs.blogspot.com/?m=1" style="color:#FFEE61;"><h4 style="text-align: center; margin-bottom: 0; " class="readblog pulsingButton">Click Here For Blogs</h4>
+ </a></div>
+
+  <a name="contact"></a>
+    <!-- Site footer -->
+    <footer class="site-footer">
+       <p style="text-align: center;padding-left: 1vw;padding-bottom: 1.5vh;color:white">❣❣For having your own website don't hesitate to contact innovatinggodda❣❣</p> 
+      <div class="containegh" >
+        <div class="rowh">
+          <class="col-sm-12 col-md-6">
+             
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+              <li><a href="http://innovatinggodda.me//">Home</a></li>
+              <li><a href="http://innovatinggodda.me/#evetns">Events</a></li>
+              <li><a href="https://goddablogs.blogspot.com/">Blogs</a></li>
+              <li><a href="https://innovatinggodda.me/#about">About Us</a></li>
+            </ul>
+          </div>
+
+         
+        </div>
+        <hr>
+      </div>
+      <div class="containerh1" style="display: block;margin: 0 auto;">
+        <div class="rowh" >
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text"> Website Made with ❣ by Innovating Godda</span><br>Copyright &copy; 2021 Innovating Godda. All Rights Reserved   
+          
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook" href="https://www.facebook.com/innovatinggodda"><i class="fa fa-facebook"></i></a></li>
+               <li><a class="dribble" href="https://www.instagram.com/innovating_godda/"><i class="fa fa-instagram"></i></a></li>
+              <li><a class="twitter" href="https://twitter.com/InnovatingGodda?s=20"><i class="fa fa-twitter"></i></a></li>
+             
+              <li><a class="linkedin" href="https://www.youtube.com/channel/UCNeJulG1UoGb_ypYB1KOM3A"><i class="fa fa-youtube"></i></a></li>   
+            </ul>
+          </div>
+        </div>
+      </div>
+</footer>
+ 
+
+
+ 
+
+
+
+
+
+<!-- COTTIE FILES -->
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+ <!-- WAYPOINTS JS -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js" integrity="sha512-fHXRw0CXruAoINU11+hgqYvY/PcsOWzmj0QmcSOtjlJcqITbPyypc8cYpidjPurWpCnlB8VKfRwx6PIpASCUkQ==" crossorigin="anonymous"></script>
+ 
+<!-- AOS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+ 
+  <!-- JS LINKING -->
+  <script src="script.js"></script>
+   
+</body>
+
+</html>
