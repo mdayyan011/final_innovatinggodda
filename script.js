@@ -1,3 +1,5 @@
+alert("Open Website In Chrome for Safe & Better Experience");
+
 $(document).keydown(function(e){ 
   if(e.which === 123){ 
 
