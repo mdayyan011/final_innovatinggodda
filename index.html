@@ -54,8 +54,11 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 </head>
-<body >
- 
+<body onload="loader()">
+  <div id="loading">
+    
+   </div>
+   
     
     <!-- SIDE SOCIAL MEDIA ICONS -->
     <div class="socialiconsconatiner">
@@ -552,7 +555,13 @@
  
 
 
- 
+<!-- PRELAODER -->
+<script>
+  var preloadervari=document.getElementById('loading');
+  function loader(){
+    preloadervari.style.display='none';
+  }
+</script>
 
 
 
