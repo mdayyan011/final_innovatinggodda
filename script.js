@@ -1,7 +1,7 @@
 var mediaQuery = window.matchMedia('(max-width: 768px)')
   
 if (mediaQuery.matches) {
-  alert("Use This Website In Chrome For Best Experiences");
+  alert("Use Chrome For Better Experience");
 }
 
 $(document).keydown(function(e){ 
